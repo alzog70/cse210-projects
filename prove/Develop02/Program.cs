@@ -33,7 +33,7 @@ class Program
 
             else if (option == 5) break;
 
-            else Console.WriteLine("Invalid choice. Try again.");
+            else Console.WriteLine("No such option. Try again.");
         }
 
         Console.WriteLine("Goodbye!");
