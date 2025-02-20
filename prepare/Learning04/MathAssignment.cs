@@ -11,7 +11,9 @@ public class MathAssignment : Assignment
         _problems = problems;
         _textbookSection = textbookSection;
     }
+
     public string GetHomeworkList()
+    
     {
     return $"Section {_textbookSection} Problems {_problems}";
     }
